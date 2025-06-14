@@ -1,5 +1,5 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "Marketing_Emails_SES",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

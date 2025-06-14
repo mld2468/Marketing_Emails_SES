@@ -1,10 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Welcome Email</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica Neue, Arial, sans-serif;
+            background-color: #000;
+            color: #000;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Full-screen background */
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: #19B0B1;
+            text-decoration: none;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #111; /* Email content background */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hero img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .hero h1 {
+            font-size: 24px;
+            color: #fff;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #19B0B1;
+            font-size: 20px;
+        }
+        .content p {
+            color: #fff;
+        }
+        .content p.greeting {
+            color: #19B0B1;
+            font-weight: bold;
+        }
+        .button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #0951A6;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #19B0B1;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons img {
+            width: 24px;
+            margin: 0 5px;
+        }
+        @media (min-width: 601px) {
+            body {
+                background-color: #111;
+            }
+        }
+    </style>
 </head>
 <body>
-$END$
+<div class="email-container">
+    <!-- Header -->
+    <div class="header">
+        <img src="https://via.placeholder.com/150" alt="Epoch Logo">
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Welcome Aboard!</h1>
+        <img src="https://via.placeholder.com/600x300" alt="Platform Screenshot">
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <p class="greeting">Hi *|FNAME|*,</p>
+        <p>Thanks for joining our Epoch waitlist! We’re thrilled to have you on board. Here are some exciting updates:</p>
+
+        <h2>Beta v2</h2>
+        <p>We have some exciting news—Beta v2 of our platform is set to launch at the end of the month, packed with new features and improvements all based on your feedback.</p>
+
+        <h2>Community Discord</h2>
+        <p>Join our Discord to connect with fellow algo traders and stay up-to-date on new platform features!</p>
+        <p>We created this space to foster an unbiased environment for collaboration in algorithmic trading, it is now growing into a vibrant community—and we’d love for you to be part of it.</p>
+        <p>Let’s collaborate, share insights, and shape the future of trading together.</p>
+
+        <a href="#" class="button">Join our Community</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Follow Us</p>
+        <div class="social-icons">
+            <a href="#"><img src="https://via.placeholder.com/24" alt="Instagram"></a>
+            <a href="#"><img src="https://via.placeholder.com/24" alt="Facebook"></a>
+            <a href="#"><img src="https://via.placeholder.com/24" alt="X"></a>
+            <a href="#"><img src="https://via.placeholder.com/24" alt="LinkedIn"></a>
+            <a href="#"><img src="https://via.placeholder.com/24" alt="TikTok"></a>
+            <a href="#"><img src="https://via.placeholder.com/24" alt="YouTube"></a>
+        </div>
+    </div>
+</div>
 </body>
 </html>
